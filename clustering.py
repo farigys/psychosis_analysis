@@ -21,6 +21,7 @@ import os
 import argparse
 import pickle
 import math
+from collections import Counter
 
 def visualize(X_scaled, y, clust_tech, params):
     transformed = None
@@ -116,8 +117,6 @@ def create_and_visualize_clusters(X, clustering_technique, clust_params):
     
     if clustering_technique == "meanshift":
         y = meanshift_clustering(X_scaled, clust_params)
-
-    from collections import Counter
     
     counter = Counter(y)
     print(counter)
