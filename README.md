@@ -17,7 +17,7 @@ Creates dictionaries and vector files used for creating clusters.
 
 Creates clusters using data file #2. Also creates files with TF-IDF for each CUI related to the clusters.
 
-**Command to run:** python clustering.py --path <path_to_data_file_2> --clustering_technique <clust>
+**Command to run:** python clustering.py --path <path_to_data_file_2> --clustering_technique <clust_tech>
 
 ##### Parameters:
 
