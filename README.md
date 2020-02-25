@@ -17,17 +17,15 @@ Creates dictionaries and vector files used for creating clusters.
 
 Creates clusters using data file #2. Also creates files with TF-IDF for each CUI related to the clusters.
 
-Command to run: python clustering.py --path <path_to_data_file_2> --clustering_technique <clust>
+**Command to run:** python clustering.py --path <path_to_data_file_2> --clustering_technique <clust>
 
 ##### Parameters:
 
 ###### Required:
-
 1. --path: path to the file containing vector outputs from the DNN model
 2. --clustering_technique: clustering technique you want to use- can be kmeans, dbscan or meanshift
 
 ###### Optional:
-
 1. --viz_technique: Visualization choice- can be either pca or tsne
 2. --cluster_count: required for Kmeans clustering. Default 2
 3. --epsilon: Epsilon defined in the DBSCAN clustering algorithm. Default 10
