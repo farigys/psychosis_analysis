@@ -7,13 +7,13 @@
 
 #### Codes:
 
-**preprocessing.py:** 
+**1. preprocessing.py:** 
 
 Creates dictionaries and vector files used for creating clusters.
 
 **Command to run:** python preprocessor.py --cui_file <path_to_the_data_file_1>
 
-**clustering.py:** 
+**2. clustering.py:** 
 
 Creates clusters using data file #2. Also creates files with TF-IDF for each CUI related to the clusters.
 
